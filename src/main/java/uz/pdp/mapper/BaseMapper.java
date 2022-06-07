@@ -27,6 +27,4 @@ public interface BaseMapper<E, D, CD, UD> extends Mapper {
     E fromCreateDto(CD cd);
 
     E fromUpdateDto(UD ud);
-
-    AuthUserDto toDto(Optional<AuthUser> byId);
 }
